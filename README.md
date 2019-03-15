@@ -6,6 +6,9 @@ We analyze data from PetFinder.my to determine how likely it is for a pet to get
 ### data 
 Contains .csv files used for labeling the data as well as the data itself (train.csv)
 
+### Pet-Finder ECE143_Slides.pdf
+Slides used for presentation as .pdf (to prevent formatting issues)
+
 ### State-wise_and_Recommender.ipynb
 Implementation of State-wise analysis, mainly,
 - Correlating state-wise count with HDI
