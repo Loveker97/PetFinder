@@ -10,6 +10,12 @@ import seaborn as sns
 from PIL import Image
 
 
+'''
+Note: Code runs however, some plots may not show up since
+code was written in Jupyter environment - to see plots,
+refer to the .ipynb of the same name
+'''
+
 
 #import Petfinder.my data from directory labeled data
 breed_labels = pd.read_csv("data/breed_labels.csv")
