@@ -9,3 +9,13 @@ Implementation of State-wise analysis, mainly,
 - Combining States based on HDI
 - Average Adoption Rate per State (and new state)
 - Recommender System for Pet Adoption
+
+### Age_Plots.ipynb
+Anaylysis of how age affects average adoption rate
+- Shows distribution of cats and dogs at different ages
+- Plots average adoption rate at different ages
+
+### Gender_Color_Plots.ipynb
+Analysis of how gender and color affects average adoption rate
+- Plots average adoption rate vs gender
+- Plots average adoption rate vs color coat
