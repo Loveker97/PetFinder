@@ -3,6 +3,9 @@ We analyze data from PetFinder.my to determine how likely it is for a pet to get
 
 *Data stored in the folder 'data' outside the working directory*
 
+### data 
+Contains .csv files used for labeling the data as well as the data itself (train.csv)
+
 ### State-wise_and_Recommender.ipynb
 Implementation of State-wise analysis, mainly,
 - Correlating state-wise count with HDI
