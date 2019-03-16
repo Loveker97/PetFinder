@@ -9,7 +9,7 @@ Contains .csv files used for labeling the data as well as the data itself (train
 ### Pet-Finder ECE143_Slides.pdf
 Slides used for presentation as .pdf (to prevent formatting issues)
 
-### State-wise_and_Recommender.ipynb
+### State-wise_and_Recommender.ipynb (and utils_recommender.py)
 Implementation of State-wise analysis, mainly,
 - Correlating state-wise count with HDI
 - Combining States based on HDI
