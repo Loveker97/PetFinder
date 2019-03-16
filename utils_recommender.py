@@ -53,6 +53,41 @@ def initial_analysis(data):
     data.hist(bins=50, figsize=(20,15))
     plt.show()
 
+def state_dictionary(state_labels):
+    '''
+    Input: 
+        state_labels: State labels
+    Output: 
+        Dictionary defining stateID and StateName correspondence
+    '''
+    return dict(zip(state_labels["StateID"], state_labels["StateName"]))
+
+def state_vs_HDI(state_labels, state_dict, train_copy):
+    '''
+    Input: 
+        state_labels: State labels,
+        train_copy: Data
+    Output: 
+        x,y, bar_color: For plotting
+    '''
+    # Correlating top states with HDI 
+    state_labels['HDI'] = [0.785, 0.769, 0.741, 0.822, 
+                           0.742, 0.794, 0.789, 0.766, 
+                           0.778, 0.767, 0.803, 0.674, 
+                           .707, 0.819, 0.762]
+
+    # Idenify Top States
+    top_states = train_copy['State'].value_counts()
+    x = []
+    y = []
+    bar_color = []
+    for state in top_states.index:
+        x.append(state_dict[state])
+        y.append(top_states[state])
+        bar_color.append(state_labels.loc[state_labels['StateID'] == state]['HDI'].values[0])
+        print(state_dict[state], state_labels.loc[state_labels['StateID'] == state]['HDI'].values[0])
+
+    return x,y, bar_color 
 
 def recommender_system(state_dict, breed_dict, train_copy):
     '''
