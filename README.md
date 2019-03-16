@@ -15,6 +15,7 @@ Implementation of State-wise analysis, mainly,
 - Combining States based on HDI
 - Average Adoption Rate per State (and new state)
 - Recommender System for Pet Adoption
+- utils_recommender.py contains all the necessary functions
 
 ### Age_Plots.ipynb (and .py)
 Anaylysis of how age affects average adoption rate
