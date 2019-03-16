@@ -9,12 +9,13 @@ Contains .csv files used for labeling the data as well as the data itself (train
 ### Pet-Finder ECE143_Slides.pdf
 Slides used for presentation as .pdf (to prevent formatting issues)
 
-### State-wise_and_Recommender.ipynb
+### State-wise_and_Recommender.ipynb (and utils_recommender.py)
 Implementation of State-wise analysis, mainly,
 - Correlating state-wise count with HDI
 - Combining States based on HDI
 - Average Adoption Rate per State (and new state)
 - Recommender System for Pet Adoption
+- utils_recommender.py contains all the necessary functions
 
 ### Age_Plots.ipynb (and .py)
 Anaylysis of how age affects average adoption rate
