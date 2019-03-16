@@ -32,3 +32,9 @@ Analysis of cat and dog distributions in top 4 states, maturity size, breed
 - Breed Distributions using WordCloud
 - Maturity Size vs. Average Adoption Speed
 - Adoption Speed Spread for Top 10 Breeds 
+
+### Name visualization.ipynb (and .py)
+Analysis of names for dogs and cats and correlation between health-related attributes
+- WordCloud of top names for dogs and cats
+- Plots/matrix demonstrating relationship between health attributes like deworming 
+  and sterilization with average adoption speed
